@@ -31,3 +31,7 @@ Now you can do `npx noalias load .noalias.json` and get all aliases installed at
 ## Cleanup
 
 Want to remove aliases? Just do `npx noalias cleanup` and it will remove everything that was created. Alternatively you can purge your node_modules folder and aliases will be removed as well.
+
+## Finally
+
+Soooo, the project failed. Apparently `rm -rf` follows symlinks so your actual code might get wiped during `npm install` which is something we don't want. I failed to find a workaround so I abandon the project.
