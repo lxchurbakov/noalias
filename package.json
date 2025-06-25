@@ -1,0 +1,15 @@
+{
+    "name": "noalias",
+    "version": "1.0.0",
+    "description": "Create symlinks in your projects with ease",
+    "main": "index.js",
+    "bin": {
+        "noalias": "./index.js"
+    },
+    "keywords": ["alias"],
+    "author": "lxchurbakov",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^14.0.0"
+    }
+}
